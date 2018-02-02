@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+    </style>
+
+    <style name="myTheme" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
+    </style>
+    <style name="myTheme.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/white_full</item>
+        <item name="android:titleTextStyle">@style/myActionBarTitleText</item>
+    </style>
+    <style name="myActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+    </style>
+</resources>

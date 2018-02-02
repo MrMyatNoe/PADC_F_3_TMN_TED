@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name"><b>TED</b></string>
+    <string name="app_playlist">Playlists</string>
+    <string name="app_podcast">Podcasts</string>
+    <string name="app_surprise">Surprise me</string>
+    <string name="app_talks">My Talks</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_policy">Privacy Policy</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_login">Login</string>
+    <string name="search_title">Search TED talks</string>
+    <string name="podCast_title">The Big Five</string>
+    <string name="podCast_topic">What are the five biggest global challenges we face right now "-"- and
+        what can we do about them? This hour, TED speakers explore some radical solutions to these enduring problems
+    </string>
+    <string name="playlist_title">Why not work it out?</string>
+    <string name="playlist_talk">7 talks</string>
+    <string name="time">18:15</string>
+    <string name="talks_author">Lisa Fieldman Berret</string>
+    <string name="talks_topic">Your aren"'t at the mercy of your emotions "-"- your brain creates them "!</string>
+</resources>
