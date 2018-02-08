@@ -1,5 +1,6 @@
 package com.myanmar.tmn.ted.activities;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -26,6 +27,7 @@ public class SearchResultActivity extends AppCompatActivity {
 
     SearchResultAdapter searchResultAdapter;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,8 +41,8 @@ public class SearchResultActivity extends AppCompatActivity {
         rvSearchResult.setAdapter(searchResultAdapter);
     }
 
-    @OnClick({R.id.tv_topic_one,R.id.tv_topic_two,R.id.tv_topic_three})
-    public void onTapResult(View view){
-        startActivity(new Intent(this,SearchResultActivity.class));
+    public static Intent searchResultIntent(Context context){
+        return null;
     }
 }
+
